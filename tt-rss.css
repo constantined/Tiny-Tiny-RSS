@@ -800,6 +800,7 @@ div.fatalError textarea {
 }
 
 #headlines-frame {
+	overflow-y : scroll;
 	padding : 0px;
 	border-color : #c0c0c0;
 	border-style : solid;
@@ -922,6 +923,7 @@ img.feedIcon, img.tinyFeedIcon {
 }
 
 #headlines-spacer {
+	display : none;
 	height : 100%;
 	margin-left : 1px;
 	text-align : center;
