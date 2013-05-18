@@ -434,7 +434,7 @@ class Feeds extends Handler_Protected {
 					$mouseover_attrs = "onmouseover='postMouseIn(event, $id)'
 						onmouseout='postMouseOut($id)'";
 
-					$reply['content'] .= "<div class='hl $class' id='RROW-$id' $mouseover_attrs>";
+					$reply['content'] .= "<div class='hl $class' id='RROW-$id'>";
 
 					$reply['content'] .= "<div class='hlLeft'>";
 
